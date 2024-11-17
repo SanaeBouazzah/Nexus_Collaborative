@@ -1,0 +1,229 @@
+.divone{
+  width: 70%;
+}
+.statics{
+  margin-left:2px;
+}
+.statics h1{
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: -10px;
+  margin-left: 10px;
+}
+.statics span{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: block;
+  margin-left: 10px;
+}
+.statics .cards{
+  margin-top: -30px;
+  display: grid;
+  grid-template-columns:repeat(auto-fit, minmax(140px, 1fr));
+  justify-content: center;
+  align-items: center;
+  gap:15px;
+  box-sizing: border-box;
+}
+.statics .card{
+  background-color: white;
+  padding: 30px;
+  box-shadow: 5px 5px 6px #ccc;
+  border-radius: 10px;
+  border: 1px solid #f5f5f5;
+}
+.statics .card1{
+  height: 150px;
+  margin-left: 0;
+}
+.statics .card2{
+  height: 170px;
+}
+.statics .card3{
+  height: 190px;
+}
+.statics .card4{
+  height: 210px;
+}
+.statics .card5{
+  height: 230px;
+  margin: 10px 0 10px 10px;
+}
+.statics .card i{
+  font-size: 40px;
+  margin-bottom: 15px;
+  color:green;
+  display: block;
+}
+.procourses .ex-tp {
+  margin-bottom: 20px;
+}
+.procourses .ex-flex{
+  max-width: 800px;
+  width: 100%;
+ }
+.procourses h1{
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: -10px;
+  margin-left: 10px;
+}
+.procourses span{
+  margin-top: 10px;
+  display: block;
+  margin-left: 10px;
+}
+.procourses .search{
+  width: 600px;
+}
+.procourses .global_search input{
+  border-radius: 40px;
+  padding: 7px 20px;
+  width: 400px;
+  display: block;
+  border: 1px solid #b7b7b7;
+}
+.procourses .course-card{
+  background-color: white;
+  border-radius: 20px;
+  height: 430px;
+  margin-bottom: 7px;
+  width:280px;
+  border: 1px solid #ccccccb2;
+}
+.procourses .course-card .image{
+  margin-bottom: 10px;
+  width: 100%;
+}
+.procourses .course-card .image img{
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  width: 100%;
+}
+.procourses .three{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  justify-content: center;
+  gap:10px;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+  border-radius: 10px;
+}
+.procourses .course-card a{
+  font-weight: bold;
+  font-size: 20px;
+  color:black;
+  display: block;
+}
+.procourses .course-card .part2{
+  padding: 20px;
+}
+.procourses .course-card .part2 img{
+  border-radius: 50%;
+}
+.procourses .ag-courses-item_image {
+  height: 171px;
+}
+.statics-teachers{
+  width: 28%;
+  background-color: white;
+  padding:30px;
+  border-radius: 20px;
+}
+.statics-teachers h1{
+  font-size: 30px;
+  font-weight: bold;
+}
+.statics-teachers span{
+  color: #6f6f6f;
+  margin-bottom: 25px;
+  display: block;
+  margin-top:-5px;
+}
+.statics-teachers .tech{
+  padding: 10px 0;
+  border-bottom: 2px solid rgb(234, 234, 234);
+}
+@media (max-width:1125px){
+  .divone {
+    width: 90%;
+   }
+  .statics-teachers{
+    width: 80px;
+    box-shadow: 0 0 5px #cccccc3e;
+  }
+  .statics-teachers .follower-avatar{
+    margin-right: 0;
+  }
+  .statics-teachers h1,
+  .statics-teachers .tech a .follower-info,
+  .statics-teachers .tech .follow-button,
+  .statics-teachers span {
+    display: none;
+   }
+  .statics-teachers .tech{
+    border-bottom: none;
+    flex-direction: column;
+  }
+}
+@media (max-width:992px){
+  .statics span {
+    margin-bottom: 10px;
+   }
+}
+@media (max-width:768px){
+  .statics span {
+    margin-bottom: 30px;
+   }
+   .procourses{
+    margin-top: 20px;
+   }
+   .procourses .three{
+    place-items: center;
+   }
+   .procourses .ex-flex{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+   }
+   .procourses .ag-courses_item {
+    max-width:350px
+   }
+   .procourses .ag-courses-item_image {
+    height: 180px;
+  }
+}
+@media (max-width:500px){
+  .divone{
+    width: 70%;
+  }
+  .flex-tip{
+    padding:1rem;
+  }
+  .procourses .global_search input{
+    width: 200px;
+  }
+  .procourses .three{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    justify-content: center;
+    gap:10px;
+   }
+   .statics span {
+    margin-bottom: 50px;
+   }
+}
+@media (max-width:400px){
+  .statics h1 {
+    font-size: 18px;
+    margin-bottom: -10px;
+   }
+  .divone{
+    width: 60%;
+  }
+  .statics span {
+    margin-bottom: 40px;
+    font-size: 14px;
+   }
+}

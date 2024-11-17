@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.container {
+    padding: 1rem 4rem;
+
+}
+html{
+  overflow-x: none;
+}
+a{
+  text-decoration: none;
+}
+.b-green{
+  color:white;
+  background-color: green;
+  padding: 0 7px;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+body {
+    margin: 0;
+    background: #f0efef61;
+    font-family: "Poppins", sans-serif;
+}
+.width-18 {
+    width: 20%;
+}
+.logo h1{
+  font-size: 18px;
+  font-family: "Playwrite CU", cursive;
+  color: black;
+  text-align: center;
+}
+.list {
+    background: white;
+    padding: 20px 10px 0;
+    height: 100vh;
+    box-shadow: 0px 0px 10px #c2c2c2;
+    position: fixed;
+}
+.list ul {
+    list-style: none;
+    margin-left: -20px
+}
+.list ul li a {
+    text-decoration: none;
+    padding: 15px 10px;
+    font-size: 17px;
+    display: block;
+    color: black;
+}
+.list ul li a:hover {
+    background: green;
+    color: white;
+    transition: .4s ease-out;
+}
+.list ul li button {
+    background-color: green;
+    outline: none;
+    border: none;
+    color: white;
+    display: block;
+    padding: 12px 20px 10px 10px;
+    font-size: 17px;
+    /* border-radius: 40px; */
+    width: 100%;
+    text-align: left;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.profile-information {
+    width: 80%;
+    margin-left: 3%;
+}
+.profile-information h3 {
+    text-align: center;
+    margin-bottom: 0px;
+}
+.background {
+    width: 100%;
+    height: 350px;
+
+}
+.background img {
+    border-bottom-left-radius: 3px;
+    border-bottom: 5px solid #fff;
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    box-shadow: -5px 5px 6px #a6a6a6;
+}
+.backgroundImage form {
+  position: relative;
+}
+.backgroundImage form .selectImageButton{
+  background-color: rgba(255, 255, 255, 0.688);
+  position: absolute;
+  top:0;
+  right:0;
+  padding:10px 20px;
+  color:rgb(44, 44, 44);
+  cursor: pointer;
+  outline: none;
+  border: none;
+  margin: 10px;
+  border-radius: 30px;
+  font-weight: bold;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.31);
+}
+.backgroundImage form .selectImageButton:hover{
+  background-color: rgba(255, 255, 255, 1);
+}
+.image-profile {
+    margin: -7rem auto 0;
+    text-align: center;
+    width: 150px;
+}
+.image-profile img {
+    border-radius: 50%;
+    display: block;
+    width: 100%;
+    box-shadow: 5px 5px 30px rgb(0, 0, 0);
+    border: 7px solid white;
+    position: relative;
+}
+.image-profile img:hover{
+  transform:rotateY(360deg);
+  transition: 1s linear;
+}
+.search input {
+    padding: 5px 0 5px 20px;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    font-size: 15px;
+    margin: 15px 14px -10px;
+}
+.info-user{
+  position: relative;
+}
+.info-user::before{
+  background-image: url('../storage/myapp/arrow.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  content: '';
+  position: absolute;
+  top:10px;
+  left:-50px;
+  width: 300px;
+  height: 400px;
+  transform: rotate(90deg);
+}
+.info {
+    text-align: center;
+}
+.info .bio {
+    margin: 0;
+}
+.info .join {
+    text-align: right;
+    margin-right: 20px;
+    position: absolute;
+    top: 100px;
+    right:0;
+}
+.info .join span{
+  font-weight: bold
+}
+.info .role {
+    text-transform: capitalize;
+    color: white;
+    background: green;
+    padding: 0 10px;
+}
+.info .bio {
+    font-family: "Playwrite CU", cursive;
+}
+.object {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: -3rem 0;
+}
+.object .description {
+    background: white;
+    padding: 25px;
+    margin-right: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #9f9f9f;
+    width:500px;
+}
+.object .social-media a {
+    display: block;
+    padding: 6px 20px;
+    text-decoration: none;
+    color: white;
+    background: green;
+    margin-bottom: 5px;
+    border-radius: 40px;
+    text-align: center
+
+}
+.object .social-media a:last-child{
+  margin-bottom: 0;
+}
+.object .social-media a i{
+  margin-right: 10px;
+}
+.object .graduationprofile{
+  flex: 1;
+  background-image: url('../storage/myapp/graduationprofile.png');
+  width:140px;
+  height:300px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.experiences div:nth-child(1){
+  background-color: green;
+}
+.experiences div:nth-child(1) .date{
+  color:#fff;
+}
+.experiences div:nth-child(1) .position{
+  color:rgb(194, 252, 194);
+}
+.experiences div:nth-child(1) .description{
+  color:rgba(194, 252, 194, 0.84);
+}
+.experiences .experience {
+    background: white;
+    margin: 0 5px;
+    padding:20px;
+    border-radius: 20px;
+    border:1px solid #e2e2e2;
+}
+.experiences .experience .date{
+  color:green;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 5px;
+  display: block;
+}
+.experiences .experience .position{
+  color:black;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.galerie .gallery{
+  columns: 4;
+  text-align: center;
+  gap:10px;
+}
+.galerie .gallery ul .image{
+  margin-bottom: 10px;
+  list-style: none;
+}
+.galerie .gallery .image img{
+  width:100%;
+  object-fit: cover;
+  height: 100%;
+  border-radius: 10px;
+}
