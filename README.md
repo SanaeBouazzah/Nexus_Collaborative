@@ -11,4 +11,4 @@ Join us on this exciting journey of discovery and growth. I can’t wait for you
 
 ## Home Page :
 
-<img src="public/myapp/image1.png" alt="HomePage">
+<img src="public/images/image1.png" alt="HomePage">
