@@ -8,7 +8,44 @@ I am passionate about education and committed to creating an empowering environm
 
 Join us on this exciting journey of discovery and growth. I can’t wait for you to experience all that Nexus Collaborative has to offer!
 
+<p>admin   :</p> <a>admin@admin.com</a>
+<p>Teacher :</p><a>teacher@teacher.com </a>
+<p>User    :</p><a>user@user.com</a>
+<p>Password All Users    :</p><a>123456789</a>
 
 ## Home Page :
 
 <img src="public/images/image1.png" alt="HomePage">
+
+
+## Courses Page :
+
+<img src="public/images/image2.png" alt="HomePage">
+
+## Events Page :
+
+<img src="public/images/image3.png" alt="HomePage">
+
+## Login Page :
+
+<img src="public/images/image4.png" alt="HomePage">
+
+## Dashboard Page :
+
+<img src="public/images/image5.png" alt="HomePage">
+
+## Profile Page :
+
+<img src="public/images/image6.png" alt="HomePage">
+
+## Access to Course Page :
+
+<img src="public/images/image7.png" alt="HomePage">
+
+## Start Studying With Courses :
+
+<img src="public/images/image8.png" alt="HomePage">
+
+## Settings Profile Page :
+
+<img src="public/images/image9.png" alt="HomePage">
