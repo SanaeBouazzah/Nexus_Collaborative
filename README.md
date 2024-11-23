@@ -8,10 +8,10 @@ I am passionate about education and committed to creating an empowering environm
 
 Join us on this exciting journey of discovery and growth. I can’t wait for you to experience all that Nexus Collaborative has to offer!
 
-<p>admin   :</p> <a>admin@admin.com</a>
-<p>Teacher :</p><a>teacher@teacher.com </a>
-<p>User    :</p><a>user@user.com</a>
-<p>Password All Users    :</p><a>123456789</a>
+<p>1- admin   : <a>admin@admin.com</a></p>
+<p>2- Teacher : <a>teacher@teacher.com </a></p>
+<p>3- User    : <a>user@user.com</a></p>
+<p>4- Password All Users    : <a>123456789</a></p>
 
 ## Home Page :
 
